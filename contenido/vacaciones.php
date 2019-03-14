@@ -10,6 +10,7 @@ and open the template in the editor.
         <meta charset="UTF-8">
         <title></title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
         <link href="../css/estiloprincipal.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
@@ -19,7 +20,7 @@ and open the template in the editor.
             <div id="menu"><?php include('../menu.php');?></div>
                     <div id="contenido">
                         <form action="../lib/recepcionvacaciones.php" method="get">
-                            Rut: <input id="rut" name="rut" type="text">
+                            <br>Rut: <input id="rut" name="rut" type="text">
                             <br>Nombre: <input id="nombre" name="nombre" type="text">
                             <br>Cargo: <input id="cargo" name="cargo" type="text">
                             <br>Fecha de inicio:<input id="fechaini" name="fechaini" type="text">
